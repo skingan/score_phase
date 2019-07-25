@@ -1,6 +1,6 @@
 # Purpose
 
-This code uses newer version of meryl that are packaged with Canu v1.8.
+This code uses a newer version of meryl that is packaged with Canu  > v1.8.
 
 It does not use "qr" files but, rather, "meryl databases" which are organized as directories. See meryl repo https://github.com/marbl/meryl for more details.
 
