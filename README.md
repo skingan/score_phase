@@ -1,24 +1,24 @@
-#REDO ME
+# Purpose
+
+This code uses newer version of meryl that are packaged with Canu v1.8.
+
+It does not use "qr" files but, rather, "meryl databases" which are organized as directories. See meryl repo https://github.com/marbl/meryl for more details.
+
 
 # Dependencies
-
-`python v3.6` (need to test 3.7)
-
 `snakemake v4.8.0`
 
-`canu v1.7`
+`canu v1.8`
 
 `R v3.4.1`
 
-
-
-
 # Usage
 
-## Load Dependencies
-`conda activate py36`
-your environment may differ
+## Login to compute node with 8 cores
+`qrsh -q default -pe smp 8`
 
+
+## Load Dependencies
 `module load snakemake`
 
 
@@ -31,13 +31,10 @@ Specify your file paths and tags.
 `snakemake -s Snakefile --verbose -p`
 
 
-
-
 # Input
 
 1. contigs in fasta format
-2. `qr` files generated from canu utilities
-
+2. meryl databases with parent-specific k-mers
 
 
 
