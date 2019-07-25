@@ -1,0 +1,25 @@
+{
+    "samples" : {
+        "CCS_Unzip_primary"	: "/pbi/dept/appslab/projects/2019/sbk_CAAT/Dros/phase_scoring/test/CCS_Unzip.p_ctg.polished.fa",
+        "CCS_Unzip_haplotigs"	: "/pbi/dept/appslab/projects/2019/sbk_CAAT/Dros/phase_scoring/test/CCS_Unzip.h_ctg.polished.fa",
+	"CLR_Unzip_primary"	: "/pbi/flash/skingan/Dros/CLR/FALCON_2Jun19/4-polish/cns-output/cns_p_ctg.fasta",
+	"CLR_Unzip_haplotig"	: "/pbi/flash/skingan/Dros/CLR/FALCON_2Jun19/4-polish/cns-output/cns_h_ctg.fasta",
+	"CCS_Wenger_primary"	: "/pbi/flash/skingan/Dros/FALCON-HiFi/2-asm-falcon/p_ctg.fa",
+	"CCS_Wenger_alt"	: "/pbi/flash/skingan/Dros/FALCON-HiFi/2-asm-falcon/a_ctg.fa",
+	"CCS_Threaded_primary"	: "/pbi/flash/zkronenberg/playground/dros_phasing/2-asm-falcon-orig/p_ctg.fa",
+	"CCS_Threaded_alt"	: "/pbi/flash/zkronenberg/playground/dros_phasing/2-asm-falcon-orig/a_ctg.fa"
+    },
+    "tags" : {
+        "CCS_Unzip_primary"	: "HiFi Dros Unzip Primary",
+        "CCS_Unzip_haplotigs"	: "HiFi Dros Unzip Haplotigs",
+	"CLR_Unzip_primary"	: "CLR Dros Unzip Primary",
+	"CLR_Unzip_haplotig"	: "CLR Dros Unzip Haplotig",
+	"CCS_Wenger_primary"	: "HiFi Wenger Primary",
+	"CCS_Wenger_alt"	: "HiFi Wenger Alt",
+	"CCS_Threaded_primary"	: "HiFi Threaded Primary",
+	"CCS_Threaded_alt"	: "HiFi Threaded Alt"
+    },
+    "mom_db"  : "/pbi/dept/appslab/projects/2019/sbk_CAAT/Dros/phase_scoring/test/maternal_only.meryl",
+    "dad_db"  : "/pbi/dept/appslab/projects/2019/sbk_CAAT/Dros/phase_scoring/test/paternal_only.meryl",
+    "cpu"  : 8
+}
