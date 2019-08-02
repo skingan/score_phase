@@ -12,6 +12,13 @@ It does not use "qr" files but, rather, "meryl databases" which are organized as
 
 `R v3.4.1`
 
+
+```ggplot2
+   argparser
+   methods
+   ggsci```
+
+
 # Usage
 
 ## Login to compute node with 8 cores
@@ -19,16 +26,20 @@ It does not use "qr" files but, rather, "meryl databases" which are organized as
 
 
 ## Load Dependencies
-`module load snakemake`
+`module load snakemake/5.4.3-ve`
 
 
 ## Edit config.json
 
+Copy the config.json to the folder you want to run in.
 Specify your file paths and tags.
+
+## Export paths
+`export PATH=PATH:{snakemake clone dir}:{snakemake clone dir/scripts}
 
 
 ## Run It
-`snakemake -s Snakefile --verbose -p`
+`snakemake -s ~/tools/score_phase/Snakefile --configfile config.json -d $PWD`
 
 
 # Input
