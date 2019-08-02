@@ -24,7 +24,7 @@ rule plot:
      input: KMERS="merge/{name}.hapmers.counts"
      output: "summary/{name}.pdf", "summary/{name}.txt"
      shell: """
-	  Rscript scripts/blobPlot.R --infile {input.KMERS} --prefix summary/{wildcards.name}
+	 blobPlot.R --infile {input.KMERS} --prefix summary/{wildcards.name}
      """
 
 rule merge:

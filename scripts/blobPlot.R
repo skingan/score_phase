@@ -1,4 +1,4 @@
-
+#!/usr/bin/env Rscript
 require("ggplot2")
 require("argparser")
 require("ggsci")
