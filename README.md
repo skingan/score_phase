@@ -12,11 +12,10 @@ It does not use "qr" files but, rather, "meryl databases" which are organized as
 
 `R v3.4.1`
 
-
-```ggplot2
-   argparser
-   methods
-   ggsci```
+`ggplot2`
+`argparser`
+`methods`
+`ggsci`
 
 
 # Usage
@@ -51,6 +50,6 @@ Specify your file paths and tags.
 
 # Output
 
-`summary` directory contains final outputs.
-1. `PDF` of phasing blob plot for each fasta input
-2. `txt` file with overall phasing accuracy for each input
+summary directory contains final outputs.
+1. PDF of phasing blob plot for each fasta input
+2. txt file with overall phasing accuracy for each input
