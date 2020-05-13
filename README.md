@@ -34,7 +34,7 @@ Copy the config.json to the folder you want to run in.
 Specify your file paths and tags.
 
 ## Export paths
-`export PATH=PATH:{snakemake clone dir}:{snakemake clone dir/scripts}
+`export PATH=PATH:{snakemake clone dir}:{snakemake clone dir/scripts}`
 
 
 ## Run It
